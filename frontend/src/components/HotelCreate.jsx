@@ -14,7 +14,6 @@ const HotelCreate = () => {
             .then(response => {
                 console.log('Hotel created!', response.data);
                 setSuccessMessage('¡Hotel creado con éxito!');
-                // Limpiar el formulario
                 setName('');
                 setCity('');
             })
